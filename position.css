@@ -1,0 +1,37 @@
+.caja_1{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background: red;
+  border: 2px solid black;
+}
+/* probando absolute, relative*/
+.caja_2{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background: yellow;
+  border: 2px solid black;
+  /*position: absolute;
+  left: 50px;
+  top: 50px;*/
+  position: relative; /*tiene que ocupar las propiedades para que funcione*/
+  left: 50px;
+  top: 50px;
+}
+
+.caja_3{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background:green;
+  border: 2px solid black;
+
+}
+.caja_4{
+  width: 260px;
+  height: 80px;
+  background: blue;
+  border: 2px solid black;
+
+}
